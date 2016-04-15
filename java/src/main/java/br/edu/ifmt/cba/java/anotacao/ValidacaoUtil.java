@@ -1,11 +1,7 @@
 package br.edu.ifmt.cba.java.anotacao;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Type;
-import java.lang.reflect.TypeVariable;
 import java.util.regex.Pattern;
-
-import com.sun.xml.internal.ws.wsdl.writer.document.Types;
 
 public class ValidacaoUtil {
 

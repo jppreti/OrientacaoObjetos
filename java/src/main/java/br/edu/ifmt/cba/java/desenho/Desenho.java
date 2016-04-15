@@ -1,13 +1,9 @@
 package br.edu.ifmt.cba.java.desenho;
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
-import br.ifmt.lpi.Pessoa;
 
 @SuppressWarnings("serial")
 public class Desenho extends JPanel {

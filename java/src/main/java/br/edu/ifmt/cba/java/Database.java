@@ -62,7 +62,7 @@ public class Database {
 		return resultado;
 	}
 	
-	public static Collection<PessoaFisica> getPessoaFisicaByNome(String nome){
+	public static Collection<PessoaFisica> getPessoaFisicaByNome(final String nome){
 		Collection<PessoaFisica> pessoas = new ArrayList<>();
 		Collection<PessoaFisica> resultado = new ArrayList<>();
 		pessoas.addAll(clientes);

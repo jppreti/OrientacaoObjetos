@@ -13,7 +13,7 @@ public class ComboMoeda {
 		JFrame frm = new JFrame();
 		frm.setSize(200, 50);
 		frm.setLayout(new BorderLayout());
-		JComboBox<Currency> cmbMoeda = new JComboBox<>(Currency.values());
+		final JComboBox<Currency> cmbMoeda = new JComboBox<>(Currency.values());
 		
 		cmbMoeda.addActionListener((evt) -> {
 			System.out.println(cmbMoeda.getSelectedItem().getClass() + ": "
