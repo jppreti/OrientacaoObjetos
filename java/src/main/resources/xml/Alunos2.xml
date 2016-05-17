@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE alunos SYSTEM "Alunos2.dtd">
+<alunos>
+    <aluno>
+        <nome matricula = "123456">Fulano</nome>
+        <curso>Sistemas para Internet</curso>
+        <semestre>1</semestre>
+        <turma>A</turma>
+        <disciplinas>
+            <disciplina codigo = "3456">
+                <nomeDisciplina>Algoritmo 1</nomeDisciplina>
+                <notas>
+                    <nota valor = "8" peso = "1"/>
+                    <nota valor = "7" peso = "2"/>
+                </notas>
+            </disciplina>
+            <disciplina codigo = "6789">
+                <nomeDisciplina>Lógica</nomeDisciplina>
+                <notas>
+                    <nota valor = "6" peso = "2"/>
+                    <nota valor = "8" peso = "3"/>
+                </notas>
+            </disciplina>
+        </disciplinas>
+    </aluno>
+</alunos>
+

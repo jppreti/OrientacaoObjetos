@@ -1,0 +1,8 @@
+<!ELEMENT mensagem (emissor,destino,assunto,texto)>
+<!ELEMENT emissor (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT assunto (#PCDATA)>
+<!ELEMENT texto (titulo,corpo,rodape)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT corpo (#PCDATA)>
+<!ELEMENT rodape (#PCDATA)>

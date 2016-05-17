@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE mensagem SYSTEM "documento16.dtd">
+
+<mensagem>
+    <emissor> nome do emissor </emissor>
+    <destino> nome do destino </destino>
+    <texto>
+        <titulo> titulo do texto </titulo>
+        <corpo> corpo do texto </corpo>
+        <rodape> rodapé do texto </rodape>
+    </texto>
+</mensagem>
+

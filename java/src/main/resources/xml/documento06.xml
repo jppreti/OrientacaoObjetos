@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<aula>
+	<!-- Documento exemplo de XML --> 
+	<introducao>
+		<texto>Tecnologia de Dados para Internet </texto>
+	</introducao>
+</aula>

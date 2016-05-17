@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+<!DOCTYPE nome_elemento_raiz [ definição_dos_elementos ]>
+-->
+<!DOCTYPE aula [
+		<!ELEMENT aula (introducao)>
+		<!ELEMENT introducao (texto)>
+		<!ELEMENT texto (#PCDATA)>
+]>
+<aula>
+    <introducao>
+        <texto>
+            Exemplo de definição de uma DTD interna.
+        </texto>
+    </introducao>
+</aulax>
+

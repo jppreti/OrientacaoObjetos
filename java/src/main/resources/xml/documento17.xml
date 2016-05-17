@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE alunos SYSTEM "documento17.dtd">
+
+<alunos>
+    <aluno matricula = "m1">
+        <nome> xxxxxxxxxxxxxxxx </nome>
+        <turma simbolo = "&T1;"> 
+            Terceiro semestre 
+        </turma>
+    </aluno>
+    <aluno matricula = "m2">
+        <nome> yyyyyyyyyyyyyyy </nome>
+        <turma simbolo = "T2">
+            Segundo semestre
+        </turma>
+    </aluno>
+    <aluno matricula = "m3">
+        <nome> wwwwwwwwww </nome>
+        <turma simbolo = "T3">
+            Terceiro semestre
+        </turma>
+    </aluno>
+          
+</alunos>

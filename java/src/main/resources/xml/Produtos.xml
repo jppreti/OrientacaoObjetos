@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<produtos>
+    <produto codigo = "200">
+        <nome>Sabonete Bom Perfume</nome>
+        <apresentacao>Un</apresentacao>
+        <estoque>50</estoque>
+        <fornecedores>
+            <fornecedor cnpj = "99.111.222/0001-99">
+                <precoCompra>1,34</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "99.333.444/0002-66">
+                <precoCompra>1,25</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "77.123.321/0001-45">
+                <precoCompra>1,45</precoCompra>
+            </fornecedor>
+        </fornecedores>
+    </produto>
+    <produto codigo = "300">
+        <nome>Sabao Limpa Tudo</nome>
+        <apresentacao>pct</apresentacao>
+        <estoque>150</estoque>
+        <fornecedores>
+            <fornecedor cnpj = "99.456.478/0001-89">
+                <precoCompra>4,5</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "99.111.222/0001-99">
+                <precoCompra>4,8</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "69.987.345/0003-79">
+                <precoCompra>3,8</precoCompra>
+            </fornecedor>
+        </fornecedores>
+    </produto>
+    <produto codigo = "280">
+        <nome>Detergente Remove Tudo</nome>
+        <apresentacao>un</apresentacao>
+        <estoque>35</estoque>
+        <fornecedores>
+            <fornecedor cnpj = "99.111.222/0001-99">
+                <precoCompra>1,7</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "69.987.345/0003-79">
+                <precoCompra>1,5</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "99.456.478/0001-89">
+                <precoCompra>1,9</precoCompra>
+            </fornecedor>
+        </fornecedores>
+    </produto>
+    <produto codigo = "220">
+        <nome>Sabao em Po Tira Manchas</nome>
+        <apresentacao>kg</apresentacao>
+        <estoque>57</estoque>
+        <fornecedores>
+            <fornecedor cnpj = "99.456.478/0001-89">
+                <precoCompra>5,5</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "66.890.654/0002-49">
+                <precoCompra>5,9</precoCompra>
+            </fornecedor>
+            <fornecedor cnpj = "45.345.678/0001-88">
+                <precoCompra>5,2</precoCompra>
+            </fornecedor>
+        </fornecedores>
+    </produto>
+</produtos>

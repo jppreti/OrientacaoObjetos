@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding="iso-8859-1"?>
+<aula>
+	<!-- Documento exemplo de XML --> 
+	<introducao>
+		<texto>
+			Uma tag de início deve iniciar com o símbolo &lt; e terminar com o símbolo &gt;
+		</texto>
+	</introducao>
+</aula>

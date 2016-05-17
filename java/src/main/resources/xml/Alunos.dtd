@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<!ELEMENT alunos (aluno)*>
+<!ELEMENT aluno (matricula,nome,curso,semestre,turma,disciplinas)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT semestre (#PCDATA)>
+<!ELEMENT turma (#PCDATA)>
+<!ELEMENT disciplinas (disciplina)*>
+<!ELEMENT disciplina (codigo,nome,notas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT notas (nota)*>
+<!ELEMENT nota (valor,peso)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>

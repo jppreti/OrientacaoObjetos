@@ -1,0 +1,16 @@
+<!ELEMENT alunos (aluno)*>
+<!ELEMENT aluno (nome,curso,semestre,turma,disciplinas)>
+<!ELEMENT nome (#PCDATA)>
+<!ATTLIST nome matricula CDATA #REQUIRED>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT semestre (#PCDATA)>
+<!ELEMENT turma (#PCDATA)>
+<!ELEMENT disciplinas (disciplina)*>
+<!ELEMENT disciplina (nomeDisciplina,notas)>
+<!ATTLIST disciplina codigo CDATA #REQUIRED>
+<!ELEMENT nomeDisciplina (#PCDATA)>
+<!ELEMENT notas (nota)*>
+<!ELEMENT nota EMPTY>
+<!ATTLIST nota valor CDATA #REQUIRED peso CDATA #REQUIRED>
+
+

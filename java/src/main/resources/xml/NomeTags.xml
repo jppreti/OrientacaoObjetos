@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<DOCUMENTO>
+    <TITULO>
+        Tag iniciando com uma letra.
+    </TITULO>
+    <_MENSAGEM>
+        Tag iniciando com sublinhado.
+    </_MENSAGEM>
+    <MENSAGEM_1>
+        Tag contendo um sublinhado
+    </MENSAGEM_1>
+    <MENSAGEM-2>
+        Tag contendo um hífen
+    </MENSAGEM-2>
+    <MENSAGEM.3>
+        Tag contendo um ponto
+    </MENSAGEM.3>
+</DOCUMENTO>
+

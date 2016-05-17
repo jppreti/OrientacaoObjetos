@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="documento11.css"?>
+<DOCUMENTO>
+	<TITULO>
+		Exemplo de XML
+	</TITULO>
+	<MENSAGEM>
+		Bem vindo ao mundo do XML.
+	</MENSAGEM>
+</DOCUMENTO>

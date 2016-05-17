@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<livros>
+    <livro>
+        <titulo></titulo>
+        <autores>
+            <autor>
+                <nome></nome>
+                <profissao></profissao>
+                <dataNascimento></dataNascimento>
+            </autor>
+            <autor>
+                <nome></nome>
+                <profissao></profissao>
+                <dataNascimento></dataNascimento>
+            </autor>
+        </autores>
+        <isbn></isbn>
+        <editora>
+            <nome></nome>
+            <cidade></cidade>
+            <endereco></endereco>
+            <estado></estado>
+        </editora>
+    </livro>
+    <livro>
+        <titulo></titulo>
+        <autores>
+            <autor>
+                <nome></nome>
+                <profissao></profissao>
+                <dataNascimento></dataNascimento>
+            </autor>
+            <autor>
+                <nome></nome>
+                <profissao></profissao>
+                <dataNascimento></dataNascimento>
+            </autor>
+            <autor>
+                <nome></nome>
+                <profissao></profissao>
+                <dataNascimento></dataNascimento>
+            </autor>
+        </autores>
+        <isbn></isbn>
+        <editora>
+            <nome></nome>
+            <cidade></cidade>
+            <endereco></endereco>
+            <estado></estado>
+        </editora>
+    </livro>
+</livros>

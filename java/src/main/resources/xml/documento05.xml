@@ -1,0 +1,9 @@
+<contato>
+    <nome>Fulano de Tal</nome> 
+    <email>fulano@site.com.br</email>
+    <telefone>
+        <ddd>11</ddd>
+        <numero>8765-4321</numero>
+    </telefone>
+</contato>
+

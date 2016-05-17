@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pedidos>
+    <pedido>
+        <codigo></codigo>
+        <dataEmissao></dataEmissao>
+        <nomeFantasia></nomeFantasia>
+        <razaoSocial></razaoSocial>
+        <telefornes>
+            <teleforne>
+                <tipo></tipo>
+                <ddd></ddd>
+                <prefixo></prefixo>
+                <numero></numero>
+            </teleforne>
+        </telefornes>
+        <endereco>
+            <logradouro></logradouro>
+            <numero></numero>
+            <bairro></bairro>
+            <cidade></cidade>
+            <uf></uf>
+            <cep></cep>
+        </endereco>
+        <nomeContato></nomeContato>
+        <produtos>
+            <produto>
+                <codigo></codigo>
+                <nome></nome>
+                <quantidade></quantidade>
+                <valorUnitario></valorUnitario>
+                <desconto></desconto>
+                <subTotal></subTotal>
+            </produto>
+        </produtos>
+        <tipoTransporte></tipoTransporte>
+        <formaPagamento></formaPagamento>
+        <numeroParcelas></numeroParcelas>
+    </pedido>
+</pedidos>

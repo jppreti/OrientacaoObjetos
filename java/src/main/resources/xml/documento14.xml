@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+<!DOCTYPE nome_elemento_raiz  SYSTEM  "nome_arquivo.dtd">
+-->
+<!DOCTYPE aula SYSTEM "documento14.dtd">
+
+<aula>
+    <introducao>
+        <texto>
+            Exemplo de definição de uma DTD externa.
+        </texto>
+    </introducao>
+</aula>

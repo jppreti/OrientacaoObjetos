@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aula>
+    <texto>
+        <!-- Isso provoca erro
+        Uma tag de início deve iniciar com < o símbolo e terminar com o símbolo >
+        -->
+    </texto>
+    <texto>
+        Uma tag de início deve iniciar com &lt; o símbolo e terminar com o símbolo &gt;
+    </texto>
+    <texto>
+        <![CDATA[Uma tag de início deve iniciar com < o símbolo e terminar com o símbolo >]]>
+    </texto>
+</aula>
