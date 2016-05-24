@@ -4,7 +4,7 @@
 -->
 <!DOCTYPE aula [
 		<!ELEMENT aula (introducao)>
-		<!ELEMENT introducao (texto)>
+		<!ELEMENT introducao (titulo,texto)>
 		<!ELEMENT texto (#PCDATA)>
 ]>
 <aula>
@@ -13,5 +13,5 @@
             Exemplo de definição de uma DTD interna.
         </texto>
     </introducao>
-</aulax>
+</aula>
 
