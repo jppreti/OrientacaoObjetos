@@ -88,7 +88,7 @@
 
     <complexType name="itemProduto">
     	<sequence>
-    		<element name="codProduto" type="ID" />
+    		<element name="codProduto" type="positiveInteger" />
     		<element name="nome" type="string" />
     		<element name="qtde" type="float" />
     		<element name="valorUnitario" type="decimal" />
