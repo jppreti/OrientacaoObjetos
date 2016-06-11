@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 public class ProdutorAlunoXML {
 
     public static void main(String[] args) {
-        File apontador = new File("xml/Alunos.xml");
+        File apontador = new File("Alunos.xml");
         String matricula;
         String nome;
         try {
