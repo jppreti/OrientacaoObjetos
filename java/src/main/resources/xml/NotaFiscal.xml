@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="NotaFiscal.xsl" type="text/xsl"?>
+<nf:NotaFiscal 
+	xmlns:ifmt="http://ifmt.edu.br"
+	xmlns:nf="http://ifmt.edu.br/NotaFiscal"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ifmt.edu.br/NotaFiscal NotaFiscal.xsd ">
+  <nf:empresa>
+    <ifmt:nomeFantasia>Alphacosmetics</ifmt:nomeFantasia>
+    <ifmt:razaoSocial>Alphacosmetics LTDA</ifmt:razaoSocial>
+    <ifmt:cnpj>00.000.000/0000-00</ifmt:cnpj>
+    <ifmt:endereco>
+      <ifmt:rua>Rua Fictícia</ifmt:rua>
+      <ifmt:bairro>Qualquer um serve</ifmt:bairro>
+      <ifmt:numero>123</ifmt:numero>
+      <ifmt:cidade>Cuiabá</ifmt:cidade>
+      <ifmt:uf>MT</ifmt:uf>
+      <ifmt:cep>00.000-000</ifmt:cep>
+    </ifmt:endereco>
+    <ifmt:contato>
+      <ifmt:telefonePrincipal>0000-0000</ifmt:telefonePrincipal>
+      <ifmt:email>alpha@cosmetics.com.br</ifmt:email>
+    </ifmt:contato>
+  </nf:empresa>
+  <nf:cliente>
+    <ifmt:nome>JOAO PAULO</ifmt:nome>
+    <ifmt:cpf>000.000.000-00</ifmt:cpf>
+    <ifmt:endereco>
+      <ifmt:rua>Rua Fictícia</ifmt:rua>
+      <ifmt:bairro>Outro qualquer</ifmt:bairro>
+      <ifmt:numero>2</ifmt:numero>
+      <ifmt:cidade>Cuiabá</ifmt:cidade>
+      <ifmt:uf>MT</ifmt:uf>
+      <ifmt:cep>00.000-000</ifmt:cep>
+    </ifmt:endereco>
+    <ifmt:contato>
+      <ifmt:telefonePrincipal>0000-0000</ifmt:telefonePrincipal>
+      <ifmt:email>jppreti@gmail.com</ifmt:email>
+    </ifmt:contato>
+  </nf:cliente>
+  <nf:produtos>
+    <nf:produto>
+      <nf:codProduto>1</nf:codProduto>
+      <nf:nome>Produto 1</nf:nome>
+      <nf:qtde>2</nf:qtde>
+      <nf:valorUnitario>3.5</nf:valorUnitario>
+    </nf:produto>
+    <nf:produto>
+      <nf:codProduto>2</nf:codProduto>
+      <nf:nome>Produto 2</nf:nome>
+      <nf:qtde>1</nf:qtde>
+      <nf:valorUnitario>10</nf:valorUnitario>
+    </nf:produto>
+    <nf:produto>
+      <nf:codProduto>3</nf:codProduto>
+      <nf:nome>Produto 3</nf:nome>
+      <nf:qtde>7</nf:qtde>
+      <nf:valorUnitario>2</nf:valorUnitario>
+    </nf:produto>
+  </nf:produtos>
+</nf:NotaFiscal>

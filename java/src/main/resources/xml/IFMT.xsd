@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://ifmt.edu.br"
+xmlns:ifmt="http://ifmt.edu.br"
+elementFormDefault="qualified">
+
+	<simpleType name="cpf">
+		<restriction base="string">
+			<pattern value="[0-9]{3}[.][0-9]{3}[.][0-9]{3}[-][0-9]{2}" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="cnpj">
+		<restriction base="string">
+			<pattern value="[0-9]{2}[.][0-9]{3}[.][0-9]{3}[/][0-9]{4}[-][0-9]{2}" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="cep">
+		<restriction base="string">
+			<pattern value="[0-9]{2}[.][0-9]{3}[-][0-9]{3}" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="telefone">
+		<restriction base="string">
+			<pattern value="[0-9]{2}[0-9]{4}[-][0-9]{4}" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="email">
+		<restriction base="string">
+			<pattern value="[a-z]+[@][a-z]+[.][a-z]+" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="contato">
+		<all>
+			<element name="telefonePrincipal" type="ifmt:telefone" />
+			<element name="telefoneOpcional" type="ifmt:telefone"
+				minOccurs="0" />
+			<element name="email" type="ifmt:email" />
+		</all>
+	</complexType>
+
+	<complexType name="endereco">
+		<all>
+			<element name="rua" type="string" />
+			<element name="bairro" type="string" />
+			<element name="numero" type="int" />
+			<element name="complemento" type="string" minOccurs="0" />
+			<element name="cidade" type="string" />
+			<element name="uf" type="string" />
+			<element name="cep" type="ifmt:cep" />
+		</all>
+	</complexType>
+
+	<complexType name="cliente">
+		<sequence>
+			<element name="nome" type="string" />
+			<element name="cpf" type="ifmt:cpf" />
+			<element name="endereco" type="ifmt:endereco" />
+			<element name="contato" type="ifmt:contato" />
+		</sequence>
+	</complexType>
+
+	<complexType name="empresa">
+		<sequence>
+			<element name="nomeFantasia" type="string" />
+			<element name="razaoSocial" type="string" />
+			<element name="cnpj" type="ifmt:cnpj" />
+			<element name="endereco" type="ifmt:endereco" />
+			<element name="contato" type="ifmt:contato" />
+		</sequence>
+	</complexType>
+
+</schema>
