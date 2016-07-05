@@ -17,8 +17,9 @@ import org.xml.sax.SAXException;
 public class ValidadorXML_XSD {
 
 	public static void main(String[] args) throws SAXException, IOException {
-		URL schemaFile = new URL("http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd");
-		Source xmlFile = new StreamSource(new File("../../DesenvolvimentoWeb/web/src/main/webapp/WEB-INF/web.xml"));
+		URL schemaFile = new URL("http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd");
+		Source xmlFile = new StreamSource(new File(
+				"../../DesenvolvimentoWeb/web/src/main/webapp/WEB-INF/web.xml"));
 		SchemaFactory schemaFactory = SchemaFactory
 		    .newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 		Schema schema = schemaFactory.newSchema(schemaFile);
